@@ -192,7 +192,6 @@ a:hover{
 
 
 #mbrDiv input::placeholder{
-    font-size: 90%;
     padding-left: 20px;
     -webkit-padding-end:20px;
     color:#6E7C7C;
