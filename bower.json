@@ -1,0 +1,26 @@
+{
+  "name": "MCQBank2",
+  "authors": [
+    "Beykar <hamidkhaldi@aol.com>"
+  ],
+  "description": "project for MCQ Bank website",
+  "main": "index.html",
+  "keywords": [
+    "MCQBank",
+    "GP"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "jquery.countdown": "^2.2.0"
+  }
+}
