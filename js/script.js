@@ -7,37 +7,23 @@
 (function(){
     var
 
+
     $myAccountBtn      =   $("#myAccountBtn"),
     $userBtn           =   $("#userBtn"),
     $examInfoBtn       =   $("#examInfoBtn"),
-    $toggleBtn         =   $("#toggleBtn"),
-    menuSpan           =   $("#menuSpan"),
-    burgerSpan         =   $("#burgerSpan"),
+    $burgerSpan         =   $("#burgerSpan"),
     $readMoreBtn       =   $("#readMoreBtn"),
     $infoMore          =   $("#infoMore"),
 
 
 
+    burgerMenu       =  function () {
 
+            $burgerSpan.click(function(){
+                $(this).toggleClass('open');
+            });
+    },//burgerMenu
 
-    changeSpan       =   function(){
-
-            var
-                menuSpan    = $(this).find('span:first'),
-                iconSpan    = $(this).find('span:last');
-
-            if (iconSpan.hasClass('glyphicon glyphicon-menu-hamburger')) {
-                menuSpan.html('');
-                iconSpan.removeClass('glyphicon glyphicon-menu-hamburger'),
-                iconSpan.addClass('glyphicon glyphicon-remove')
-
-            } else if (iconSpan.hasClass('glyphicon glyphicon-remove')) {
-                menuSpan.html('MENU '),
-                iconSpan.removeClass('glyphicon glyphicon-remove'),
-                iconSpan.addClass('glyphicon glyphicon-menu-hamburger')
-            }
-
-    },//changeSpan
 
     changeGlyf      =   function(){
 
@@ -68,10 +54,9 @@
             } else {
                 $readMoreBtn.html("Read More... ");
             }
-            console.log($infoMore.hasClass("visible"));
         //slideToggle for the blog section
 
-    },//bindBtns
+    },//readMoreFoo
 
     countdownTimer  =   function(){
 
@@ -99,7 +84,6 @@
      bindBtns   =   function () {
 
          $readMoreBtn.click(readMoreFoo);
-         $toggleBtn.click(changeSpan);
          $userBtn.click(changeGlyf);
          $myAccountBtn.click(changeGlyf);
          $examInfoBtn.click(changeGlyf);
@@ -111,9 +95,9 @@
 
     init        =   function(){
 
+        burgerMenu();
         countdownTimer();
         bindBtns();
-
 
         }//init
     ;

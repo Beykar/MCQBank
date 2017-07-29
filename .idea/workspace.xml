@@ -2,10 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89efb097-5d1d-4c1c-a482-01942c25cb62" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/MCQBank-Homepage" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap-offcanvas/screencap.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap-offcanvas/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap-offcanvas/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap-offcanvas/Gemfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap-offcanvas/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap-offcanvas/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap-offcanvas/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap-offcanvas/Rakefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap-offcanvas/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap-offcanvas/dist/css/bootstrap.offcanvas.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap-offcanvas/dist/css/bootstrap.offcanvas.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap-offcanvas/dist/js/bootstrap.offcanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap-offcanvas/dist/js/bootstrap.offcanvas.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap-offcanvas/example/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap-offcanvas/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap-offcanvas/src/coffee/bootstrap.offcanvas.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap-offcanvas/src/sass/_vars.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap-offcanvas/src/sass/bootstrap.offcanvas.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/bootstrap-offcanvas/src/sass/bootstrap.offcanvas.test.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../One_page_Portfolio_using_Bootstrap" afterPath="$PROJECT_DIR$/../One_page_Portfolio_using_Bootstrap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/.bower.json" afterPath="$PROJECT_DIR$/bower_components/jquery/.bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/script.js" afterPath="$PROJECT_DIR$/js/script.js" />
@@ -26,21 +46,11 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="64" column="25" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+            <state relative-caret-position="117">
+              <caret line="51" column="39" lean-forward="true" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
               <folding>
-                <element signature="e#17614#17620#0" expanded="true" />
+                <element signature="e#17762#17768#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="966">
-              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -48,8 +58,18 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="194" column="6" lean-forward="false" selection-start-line="194" selection-start-column="4" selection-end-line="194" selection-end-column="23" />
+            <state relative-caret-position="105">
+              <caret line="83" column="34" lean-forward="true" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="588">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -70,14 +90,24 @@
       <find>input</find>
       <find>countdo</find>
       <find>logins</find>
-      <find>header ul, li a</find>
       <find>sampleMenu</find>
-      <find>menuNav</find>
       <find>#mc</find>
+      <find>header ul, li a</find>
+      <find>infoM</find>
+      <find>menuNav</find>
+      <find>prima</find>
+      <find>bottomN</find>
+      <find>subscribe</find>
+      <find>mcqlogo</find>
+      <find>.btn-info</find>
+      <find>#menu</find>
+      <find>navbar-brand</find>
+      <find>#menuNav</find>
+      <find>@grid-float-breakpoint</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -85,8 +115,9 @@
         <option value="$PROJECT_DIR$/bower_components/readmore-js/readmore.js" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/js/script.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/bower_components/bootstrap/less/variables.less" />
       </list>
     </option>
   </component>
@@ -118,7 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -134,13 +164,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MCQBank-Prototype" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -254,24 +285,41 @@
       <workItem from="1500548928168" duration="258000" />
       <workItem from="1500550228151" duration="790000" />
       <workItem from="1500552091240" duration="27548000" />
-      <workItem from="1500671194009" duration="14001000" />
+      <workItem from="1500671194009" duration="17158000" />
+      <workItem from="1500835287351" duration="1215000" />
+      <workItem from="1500917178209" duration="613000" />
+      <workItem from="1500979350665" duration="618000" />
+      <workItem from="1500983969163" duration="1787000" />
+      <workItem from="1501001604057" duration="1328000" />
+      <workItem from="1501086254759" duration="2132000" />
+      <workItem from="1501147583274" duration="18565000" />
+      <workItem from="1501329859835" duration="10300000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111909000" />
+    <option name="totallyTimeSpent" value="151624000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3368588" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33527234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12588236" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33882353" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -279,7 +327,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -289,64 +336,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9555">
-          <caret line="455" column="0" lean-forward="false" selection-start-line="455" selection-start-column="0" selection-end-line="455" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/jquery.countdown/dist/jquery.countdown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3570">
-          <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
-          <folding>
-            <element signature="e#17614#17620#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="34" lean-forward="false" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/jquery.countdown/dist/jquery.countdown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9555">
@@ -360,7 +354,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#17614#17620#0" expanded="true" />
+            <element signature="e#17762#17768#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -393,7 +387,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#17614#17620#0" expanded="true" />
+            <element signature="e#17762#17768#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -426,7 +420,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#17614#17620#0" expanded="true" />
+            <element signature="e#17762#17768#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -459,7 +453,7 @@
         <state relative-caret-position="4494">
           <caret line="214" column="53" lean-forward="false" selection-start-line="214" selection-start-column="53" selection-end-line="214" selection-end-column="53" />
           <folding>
-            <element signature="e#17614#17620#0" expanded="true" />
+            <element signature="e#17762#17768#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -492,7 +486,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#17614#17620#0" expanded="true" />
+            <element signature="e#17762#17768#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -518,7 +512,7 @@
         <state relative-caret-position="4851">
           <caret line="231" column="50" lean-forward="false" selection-start-line="231" selection-start-column="50" selection-end-line="231" selection-end-column="50" />
           <folding>
-            <element signature="e#17614#17620#0" expanded="true" />
+            <element signature="e#17762#17768#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -544,7 +538,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#17614#17620#0" expanded="true" />
+            <element signature="e#17762#17768#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -572,7 +566,7 @@
         <state relative-caret-position="210">
           <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
           <folding>
-            <element signature="e#17614#17620#0" expanded="true" />
+            <element signature="e#17762#17768#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -622,13 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/jquery.countdown/dist/jquery.countdown.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -636,28 +623,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/phpMyAdmin-4.7.3-all-languages/js/jquery/src/jquery/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="588">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/less/dropdowns.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="180" column="3" lean-forward="false" selection-start-line="180" selection-start-column="3" selection-end-line="180" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/less/bootstrap.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/dist/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="4287" column="27" lean-forward="true" selection-start-line="4287" selection-start-column="27" selection-end-line="4287" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="64" column="25" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+        <state relative-caret-position="117">
+          <caret line="51" column="39" lean-forward="true" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
           <folding>
-            <element signature="e#17614#17620#0" expanded="true" />
+            <element signature="e#17762#17768#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap/less/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="322" column="0" lean-forward="true" selection-start-line="322" selection-start-column="0" selection-end-line="322" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="194" column="6" lean-forward="false" selection-start-line="194" selection-start-column="4" selection-end-line="194" selection-end-column="23" />
+        <state relative-caret-position="105">
+          <caret line="83" column="34" lean-forward="true" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
           <folding />
         </state>
       </provider>

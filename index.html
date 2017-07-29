@@ -43,16 +43,20 @@
 
         <div id="bottomNav" class="container nav navbar-default">
             <div class="navbar-header">
-                <button id="toggleBtn" data-toggle="collapse" data-target=".navbar-collapse"
-                        class="navbar-toggle btn btn-info btn-default pull-right"><span id="menuSpan" class="hidden-xs">MENU </span><span id="burgerSpan" class="glyphicon glyphicon-menu-hamburger"></span></button>
-
+                <div id="toggleBtn" data-toggle="collapse" data-target=".navbar-collapse"
+                        class="navbar-toggle"><span id="menuSpan" class="hidden-xs">MENU </span><div id="burgerSpan">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                </div><!--/toggleBtn-->
                 <div id="mcqLogo">
                     <h4><a href="#"><img class="img-responsive" src="resources/assets/mcq_logo.jpg" alt="MCQ Bank logo" width="218" height="51"></a></h4>
                 </div><!--/mcqLogo-->
             </div><!--/navbar header-->
 
             <div id="menuNav" class="navbar-collapse collapse">
-                   <ul class="nav navbar navbar-nav navbar-right">
+                   <ul  id="mainUl" class="nav navbar navbar-nav navbar-right">
                     <li class=""><a class="page-scroll" href="#home">Home</a></li>
                     <li  id="myAccountBtn" class="dropdown">
                             <a class="page-scroll dropdown-toggle" data-toggle="dropdown" href="#myAccount">My Account <b class="glyphicon glyphicon-chevron-down"></b></a>
@@ -73,12 +77,12 @@
                             <li><a class="page-scroll" href="#">GP I&R Scheme</a></li>
                             <li><a class="page-scroll" href="#">Australian Exams</a></li>
                             <li><a class="page-scroll" href="#">GMC Fitness to Practice</a></li>
-                            <li><a class="page-scroll" href="#">Multi-Sepciality Recruitment</a></li>
+                            <li><a class="page-scroll" href="#">Multi-Speciality Recruitment</a></li>
                         </ul>
                     </li>
                     <li class=""><a class="page-scroll" href="#testimonials">Testimonials</a></li>
                     <li class=""><a class="page-scroll" href="#aboutUs">About Us</a></li>
-                    <li class=""><a class="page-scroll" href="#latestJobs">Latest Jobs</a></li>
+                    <li id="subscribeLi" class=""><a id="subscribeBtn" class="page-scroll" href="#subscribe"><button class="btn btn-info">Subscribe</button></a></li>
                 </ul>
 
             </div><!--/menuNav-->
@@ -272,9 +276,9 @@
     </footer>
 </div><!--/wrapper-->
 
+
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
 
 <script src="js/script.js"></script>
 <script src="bower_components/jquery.countdown/dist/jquery.countdown.min.js"></script>
