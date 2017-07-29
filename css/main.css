@@ -123,7 +123,7 @@ header ul, li a{
 
 @media screen and (min-width: 1200px){
     #mcqLogo img{
-        margin-top:-12px ;
+        margin-top:-12px !important;
     }
 }
 
@@ -161,7 +161,7 @@ header ul, li a{
 
 @media screen and (max-width: 768px){
     #mcqLogo img{
-        margin-top:15px;
+        margin-top:15px !important;
         margin-left: 15px;
         width: 90px;
         height:21px;
