@@ -14,6 +14,9 @@
     $burgerSpan         =   $("#burgerSpan"),
     $readMoreBtn       =   $("#readMoreBtn"),
     $infoMore          =   $("#infoMore"),
+    $subscribeBtn       =   $("#subscribeBtn"),
+
+
 
 
 
@@ -60,7 +63,7 @@
 
     countdownTimer  =   function(){
 
-        $('#countdownDiv').countdown('2017/08/22')
+        $('#countdownDiv').countdown('2017/11/30')
             .on('update.countdown', function(event) {
                 var format = '%D';
                 if(event.offset.totalDays < 100) {
@@ -71,7 +74,7 @@
 
             })
             .on('finish.countdown', function(event) {
-                $(this).html('Date for next exam coming soon!')
+                $('#remain').html('Date for next exam coming soon!')
                     .parent().addClass('disabled');
 
             });

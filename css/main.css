@@ -5,6 +5,11 @@ html, body{
 
 }
 
+@media screen and (max-width: 792px) {
+    body{
+        margin:0 10px;
+    }
+}
 
 /**************************** HEADER SECTION ***************************************/
 /***********************************************************************************/
@@ -17,6 +22,11 @@ header{
 
 header a{
     text-decoration: none;
+}
+
+#mainUl li a:visited{
+    background-color: yellow !important;
+
 }
 
 #logNav .glyphicon{
@@ -97,6 +107,7 @@ header a{
 }
 
 #mcqLogo{
+
     margin-left: 15px;
 }
 
@@ -398,7 +409,7 @@ a:hover{
     #bannerLg{
         display:none;
     }
-    #bannerMd{
+    #bannerSm{
         display:block;
     }
     .mainBanner img{
@@ -661,8 +672,14 @@ a:hover{
 }
 
 @media screen and (max-width: 1200px) {
+
+    #addNews, #addTimer{
+        margin-bottom: 20px;
+    }
+
     #addNews{
         text-align: center;
+        margin-bottom: 30px;
     }
     #addNews ul{
         list-style-type: none;
@@ -740,8 +757,11 @@ footer{
 }
 
 @media screen and (max-width: 1200px) {
-    #copyRight{
+    #copyRight, #legal{
         text-align: center;
+    }
+    #legal{
+        padding-left:0 !important;
     }
 }
 
