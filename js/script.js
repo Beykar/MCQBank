@@ -8,12 +8,11 @@
     var
 
 
-    $myAccountBtn      =   $("#myAccountBtn"),
-    $userBtn           =   $("#userBtn"),
-    $examInfoBtn       =   $("#examInfoBtn"),
+    $myAccountBtn       =   $("#myAccountBtn"),
+    $userBtn            =   $("#userBtn"),
+    $examInfoBtn        =   $("#examInfoBtn"),
     $burgerSpan         =   $("#burgerSpan"),
-    $readMoreBtn       =   $("#readMoreBtn"),
-    $infoMore          =   $("#infoMore"),
+    $readMoreBtn        =   $(".readMoreBtn"),
     $subscribeBtn       =   $("#subscribeBtn"),
 
 
@@ -47,18 +46,17 @@
 
 
 
-    readMoreFoo        =   function () {
+    readMoreFoo        =   function (par, btn) {
 
-            $infoMore
+                par
                 .slideToggle("slow")
                 .toggleClass("visible");
-            if ( $infoMore.hasClass("visible") ){
-                $readMoreBtn.html("Read Less... ");
+            if (par.hasClass("visible")){
+                btn.html("Read Less... ");
             } else {
-                $readMoreBtn.html("Read More... ");
+                btn.html("Read More... ");
             }
         //slideToggle for the blog section
-
     },//readMoreFoo
 
     countdownTimer  =   function(){
@@ -86,7 +84,13 @@
 
      bindBtns   =   function () {
 
-         $readMoreBtn.click(readMoreFoo);
+         $readMoreBtn.click(function () {
+             var
+                 thisPar = $(this).parent().find(".infoMore"),
+                 thisBtn =  $(this)
+             ;
+             readMoreFoo(thisPar, thisBtn);
+            });
          $userBtn.click(changeGlyf);
          $myAccountBtn.click(changeGlyf);
          $examInfoBtn.click(changeGlyf);

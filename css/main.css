@@ -24,10 +24,6 @@ header a{
     text-decoration: none;
 }
 
-#mainUl li a:visited{
-    background-color: yellow !important;
-
-}
 
 #logNav .glyphicon{
     position: relative;
@@ -634,21 +630,21 @@ a:hover{
     margin-bottom: -250px;
 }
 
-#infoMore{
+.infoMore{
     display: none;
 }
 
-#readMoreBtn{
+.readMoreBtn{
     text-decoration: none;
     text-transform: capitalize;
     font-family: inherit;
     font-size: 14px;
     border: none;
     padding:0;
-    background-color: transparent;
-    color: #2fb1c7;
+    background-color: transparent !important;
+    color: #2fb1c7 !important;
     outline:none;
-    margin-bottom: 30px;
+    margin:5px 0 30px;
 }
 
 #addNews, #addTimer{
