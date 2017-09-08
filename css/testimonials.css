@@ -14,11 +14,11 @@
 
 /**************************** BOTTOM **************************/
 
-#introContent{
+.introContent{
     margin:-20px auto;
 }
 
-#introContent .lead{
+.introContent .lead{
     text-align: justify;
 }
 
@@ -80,13 +80,26 @@
     .testIcon{
         margin:-80px auto 20px !important;
         background-color: white;
-        padding: 10px;
     }
     .testIcon i{
         padding: 10px;
+        margin-top: 15px;
     }
 }
 
+@media screen and (max-width: 520px) {
+
+    .testIcon{
+        margin:-80px auto 20px !important;
+        background-color: white;
+    }
+
+    .testIcon i{
+        padding: 10px;
+        margin-top: 25px;
+    }
+
+}
 .topAuthorDiv{
     display: flex;
     /*justify-content: space-between;*/

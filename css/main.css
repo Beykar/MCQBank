@@ -7,9 +7,11 @@ html, body{
 
 @media screen and (max-width: 792px) {
     body{
-        margin:0 10px;
+       padding:0 10px;
     }
 }
+
+
 
 /**************************** HEADER SECTION ***************************************/
 /***********************************************************************************/
@@ -35,7 +37,7 @@ header a{
 
 #menuNav .glyphicon {
     position: relative !important;
-    top: 0px !important;
+    top: 0 !important;
     left: 1px !important;
     font-size: 10px !important;
 }
@@ -157,7 +159,7 @@ header ul, li a{
         line-height: 1em !important;
         margin: 10px 0 !important;
     }
-    #mcqLogo img {
+    #mcqLogo img{
         margin-top: 32px;
         margin-right: 0;
         margin-left: 0;
@@ -166,9 +168,16 @@ header ul, li a{
     }
 }
 
+@media screen and (width: 768px){
+    #mcqLogo img{
+        margin-top: 30px !important;
+        margin-left: 10px;
+    }
+}
+
 @media screen and (max-width: 768px){
     #mcqLogo img{
-        margin-top:15px !important;
+        margin-top:15px;
         margin-left: 15px;
         width: 90px;
         height:21px;
@@ -210,8 +219,14 @@ header ul, li a{
     transition: .25s ease-in-out;
 }
 
+@media screen {
+    #burgerSpan{
+        margin-right: -10px;
+    }
+}
+
 #burgerSpan span:nth-child(1) {
-    top: 0px;
+    top: 0;
 }
 
 #burgerSpan span:nth-child(2) {
@@ -243,22 +258,24 @@ header ul, li a{
     transform: rotate(-135deg);
 }
 
-
+#mainUl li a .active{
+    color: #5D8CAE !important;
+}
 /******************************* MAIN SECTION ***********************************/
 /********************************************************************************/
 
 
 /******************************* TOP MAIN SECTION ******************************/
 
-button:hover, a:hover{
+button:hover{
     opacity: 0.7;
 }
 
 a:hover{
-    opacity: 0.7;
-    text-decoration: none;
+    /*opacity: 0.7;*/
+    /*text-decoration: none;*/
 }
-#introContent{
+.introContent{
     padding:20px;
 
 }
@@ -611,12 +628,12 @@ a:hover{
 
 /**********************.rightCol****************/
 
-#introContent h3{
-    font-weight: 700;
+.introContent h3{
+    font-weight: 600;
 }
 
-#introContent .lead{
-    font-weight: 600;
+.introContent .lead{
+    font-weight: 500;
 }
 
 .infoImgBg{
@@ -626,7 +643,7 @@ a:hover{
     position:relative;
     bottom:200px;
     left:0;
-    z-index: 20;
+    /*z-index: 20;*/
     margin-bottom: -250px;
 }
 

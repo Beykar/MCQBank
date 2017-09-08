@@ -56,7 +56,6 @@
             } else {
                 btn.html("Read More... ");
             }
-        //slideToggle for the blog section
     },//readMoreFoo
 
     countdownTimer  =   function(){
