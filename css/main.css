@@ -258,8 +258,8 @@ header ul, li a{
     transform: rotate(-135deg);
 }
 
-#mainUl li a .active{
-    color: #5D8CAE !important;
+#menuNav li a.page-scroll.active{
+    color: #5bc0de !important;
 }
 /******************************* MAIN SECTION ***********************************/
 /********************************************************************************/
@@ -294,7 +294,7 @@ a:hover{
     text-transform: capitalize;
 }
 
-#mbrDiv input{
+.infoInput{
     height: 60px;
     width:90%;
     padding-left: 10px;
@@ -305,7 +305,7 @@ a:hover{
 }
 
 
-#mbrDiv input::placeholder{
+.infoInput::placeholder{
     padding-left: 20px;
     -webkit-padding-end:20px;
     color:#6E7C7C;
@@ -449,7 +449,7 @@ a:hover{
 }
 
 
-#bannerHeader{
+.bannerHeader{
     color: #ffffff;
     position:relative;
     bottom:300px;

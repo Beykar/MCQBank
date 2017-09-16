@@ -34,12 +34,12 @@
         ;
 
         if (acctGlyf.hasClass('glyphicon glyphicon-chevron-down')) {
-            acctGlyf.removeClass('glyphicon glyphicon-chevron-down'),
-                acctGlyf.addClass('glyphicon glyphicon-chevron-up')
+            acctGlyf.removeClass('glyphicon glyphicon-chevron-down');
+                acctGlyf.addClass('glyphicon glyphicon-chevron-up');
 
         } else if (acctGlyf.hasClass('glyphicon glyphicon-chevron-up')) {
-                acctGlyf.removeClass('glyphicon glyphicon-chevron-up'),
-                acctGlyf.addClass('glyphicon glyphicon-chevron-down')
+                acctGlyf.removeClass('glyphicon glyphicon-chevron-up');
+                acctGlyf.addClass('glyphicon glyphicon-chevron-down');
         }
 
     },//changeGlyf
