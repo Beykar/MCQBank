@@ -140,5 +140,7 @@
     color:#ffffff;
     background-color: #5CD3B4;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
+    width:200px;
+    margin:10px auto;
 }

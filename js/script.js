@@ -81,7 +81,27 @@
     },//countdownTimer
 
 
-     bindBtns   =   function () {
+        arrowUp = function () {
+            //Check to see if the window is top if not then display button
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 100) {
+                    $('.scrollToTop').fadeIn();
+                } else {
+                    $('.scrollToTop').fadeOut();
+                }
+            });
+
+            //Click event to scroll to top
+            $('.scrollToTop').click(function(e){
+                e.preventDefault();
+                $('html, body').animate({scrollTop : 0},800);
+                return false;
+            });
+
+        },//arrowUp
+
+
+    bindBtns   =   function () {
 
          $readMoreBtn.click(function () {
              var
@@ -101,6 +121,7 @@
 
     init        =   function(){
 
+        arrowUp();
         burgerMenu();
         countdownTimer();
         bindBtns();

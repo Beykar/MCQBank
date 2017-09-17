@@ -339,12 +339,20 @@ a:hover{
     text-align: left !important;
 }
 
-
+#loginSpan a {
+    text-decoration: none;
+    color: #5bc0de !important;
+}
 
 #signUp{
     height: 60px;
     margin: 15px auto;
     width:90%
+}
+
+#signUpBtn a, #loginBtn a{
+    text-decoration: none !important;
+    color: #ffffff;
 }
 
 #sample{
@@ -456,6 +464,7 @@ a:hover{
     left:420px;
     font-size: 40px;
     text-transform: capitalize;
+    width:50%;
 }
 
 @media (min-width: 992px) and (max-width: 1200px){
@@ -754,6 +763,26 @@ a:hover{
 }
 
 /******************************* FOOTER SECTION ******************************/
+
+.scrollToTop{
+    width:70px;
+    height:110px;
+    padding:10px;
+    text-align:center;
+    background: whiteSmoke;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position:fixed;
+    bottom:0;
+    right:0;
+    display:none;
+    background: url('../resources/assets/chevron-arrow-upx24.png') no-repeat 0 20px;
+    z-index:30;
+}
+.scrollToTop:hover{
+    text-decoration:none;
+}
 
 footer{
     background-color: rgba(216, 232, 229, .55);

@@ -165,6 +165,7 @@
                 element.parents(".col-md-3").addClass("has-feedback");
                 element.parents(".col-md-4").addClass("has-feedback");
                 element.parents(".col-md-5").addClass("has-feedback");
+                element.parents(".col-md-12").addClass("has-feedback");
 
                 if (element.prop("type") === "checkbox") {
                     error.insertAfter(element.parent("label"));
@@ -189,6 +190,8 @@
                 $(element).parents(".col-md-3").addClass("has-error").removeClass("has-success");
                 $(element).parents(".col-md-4").addClass("has-error").removeClass("has-success");
                 $(element).parents(".col-md-5").addClass("has-error").removeClass("has-success");
+                $(element).parents(".col-md-12").addClass("has-error").removeClass("has-success");
+                $(element).parents(".col-lg-12").addClass("has-error").removeClass("has-success");
                 $(element).next("span").addClass("glyphicon-remove").removeClass("glyphicon-ok");
 
             },
@@ -198,6 +201,8 @@
                 $(element).parents(".col-md-3").addClass("has-success").removeClass("has-error");
                 $(element).parents(".col-md-4").addClass("has-success").removeClass("has-error");
                 $(element).parents(".col-md-5").addClass("has-success").removeClass("has-error");
+                $(element).parents(".col-md-12").addClass("has-success").removeClass("has-error");
+                $(element).parents(".col-lg-12").addClass("has-success").removeClass("has-error");
                 $(element).next("span").addClass("glyphicon-ok").removeClass("glyphicon-remove");
             }
         });

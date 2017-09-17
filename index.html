@@ -96,19 +96,19 @@
                 <div class="leftCol col-xs-12 col-sm-6 col-md-6 col-lg-3">
                     <div id="mbrDiv">
                         <h3>member login</h3>
-                        <form action="post" href="#">
+                        <form action=# method="post" href="#">
                             <input class= "infoInput" type="text" id="usrName" name="username" placeholder="Username">
                             <input class= "infoInput" type="text" id="passWord" name="password" placeholder="Password  ">
                            <div id="loginDiv">
                                <div id="loginSpan">
-                                <a href="#">forgot password?</a>
+                                <a href="forgot-password.html">forgot password?</a>
                                </div>
-                                <button class="btn btn-success">login</button>
+                                <button id="loginBtn" class="btn btn-success"><a href="login.html">login</a></button>
                            </div><!--/loginDiv-->
                         </form>
                     </div><!--/mbrDiv-->
                     <div id="signUp">
-                        <button class="btn btn-info" id="signUpBtn">sign up <span id="signUpSpan" class="glyphicon glyphicon-menu-right"></span></button>
+                        <button class="btn btn-info" id="signUpBtn"><a href="subscribe.html">sign up</a> <span id="signUpSpan" class="glyphicon glyphicon-menu-right"></span></button>
                     </div><!--/signUp-->
 
                     <div id="sample">
@@ -275,6 +275,7 @@
                 <span><a href="#">| share this page</a></span>
             </div><!--/legal-->
        </div><!--/footerDiv-->
+        <a href="#" class="scrollToTop" style="display: inline;"></a>
     </footer>
 </div><!--/wrapper-->
 
