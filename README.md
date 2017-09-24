@@ -1,2 +1,2 @@
 # MCQBank
-Making MCQBank homepage responsive, using Bootstrap and jQuery
+Making MCQBank website responsive, using Bootstrap, jQuery, HTML5, CSS3
