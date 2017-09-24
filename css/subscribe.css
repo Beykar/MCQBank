@@ -151,7 +151,8 @@ form h3{
 }
 
 .noRobotDiv{
-    margin:15px auto;
+    height: 180px;
+    margin:25px auto;
     display:flex;
     justify-content:space-around;
     border: 1px solid #d8e8e5;
