@@ -15,12 +15,25 @@
 }
 .form-horizontal .has-feedback .form-control-feedback {
     right: 15px;
-    top: 15px;
+    top: 38px;
 }
 
+
+@media screen and (max-width: 992px) {
+    .form-horizontal .has-feedback .form-control-feedback {
+        right: 15px;
+        top: 15px;
+    }
+}
 .checkbox span{
     right: 15px;
     top: 0 !important;
+    z-index: 30;
+}
+
+.has-error em{
+    margin:-10px !important;
+    position: absolute;
 }
 
 
@@ -78,8 +91,51 @@ form h3{
 
 .infoInput{
     width:100% !important;
+    margin:25px auto !important;
 }
 
+@media screen and (max-width: 992px){
+    .infoInput{
+        margin:45px auto !important;
+    }
+    .has-error em{
+        padding-left: 0 !important;
+        margin: -35px 25px !important;
+        z-index: 20;
+    }
+}
+
+.has-error em{
+    padding-left: 20px;
+    margin: -10px 35px;
+    z-index: 20;
+}
+
+@media screen and (max-width: 768px) {
+    .checkbox span {
+        right: -50px !important
+    }
+}
+
+
+@media screen and (max-width: 414px) {
+    .checkboxDiv{
+        font-size: 10px !important;
+    }
+}
+
+
+
+@media screen and (width: 768px) and (width:320px){
+    .checkboxDiv span{
+        right: 15px !important;
+        top: -3px !important;
+    }
+}
+
+.checkboxDiv{
+    margin-top: 42px;
+}
 
 .checkbox{
     margin-left: 20px;

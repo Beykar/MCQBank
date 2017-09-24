@@ -128,6 +128,9 @@
                     required: "Please provide a password",
                     minlength: "Your password must be at least 5 characters long"
                 },
+                username1: {
+                    required: "Please enter your username",
+                },
                 confirm_password1: {
                     required: "Please confirm your password",
                     minlength: "Your password must be at least 5 characters long",
